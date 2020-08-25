@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation Suite" verbose="1" thread-count="1" parallel="tests" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="com.rest.runner.RetryListener.RetryListener"/>
+    </listeners>
+    <test name="API Tests">
+        <classes>
+            <class name="com.rest.runner.TestRunner.APITestRunner">
+            </class>
+        </classes>
+    </test>
+</suite>

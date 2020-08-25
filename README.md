@@ -25,4 +25,4 @@ Run the testng-xmls/API_TEST.xml to start the execution
 ```
 
 ### Note : ###
-Modify the API Requests according your project and then run the script.
+Modify the API Requests according to your project need and then run the script.
